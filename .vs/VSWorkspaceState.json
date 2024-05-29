@@ -4,6 +4,6 @@
     "\\MyShop.Web",
     "\\MyShop.Web\\Controllers"
   ],
-  "SelectedNode": "\\MyShop.Web\\OrderRepository.cs",
+  "SelectedNode": "\\MyShop.Web\\Controllers\\OrderController.cs",
   "PreviewInSolutionExplorer": false
 }

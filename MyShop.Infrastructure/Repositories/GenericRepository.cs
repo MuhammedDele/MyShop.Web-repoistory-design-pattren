@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,14 +32,18 @@ namespace MyShop.Infrastructure.Repositories
             return _context.Find<T>(id);
         }
 
-        public void SaveChanges()
-        {
-             _context.SaveChanges();
-        }
+        //public void SaveChanges()
+        //{
+        //     _context.SaveChanges();
+        //}
 
         public virtual T Update(T entity)
         {
             return _context.Update(entity).Entity;
+        }
+        public virtual IEnumerable<T> Find(Expression<Func<T, bool>> filter)
+        {
+            return _table.Where(filter).ToList();
         }
     }
 }

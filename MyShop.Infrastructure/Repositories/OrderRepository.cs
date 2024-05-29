@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyShop.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,13 @@ using System.Threading.Tasks;
 
 namespace MyShop.Infrastructure.Repositories
 {
-    internal class OrderRepository
+    public class OrderRepository : GenericRepository<Order>
     {
+        private ShoppingContext _context;
+
+        public OrderRepository(ShoppingContext context):base(context)
+        {
+        }
+        
     }
 }

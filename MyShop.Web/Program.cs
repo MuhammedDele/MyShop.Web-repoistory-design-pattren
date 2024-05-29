@@ -20,7 +20,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddTransient<IRepository<Product>,ProductRepository>();
 builder.Services.AddTransient<IRepository<Customer>, CustomerRepository>();
 builder.Services.AddTransient<IRepository<Order>, OrderRepository>();
-
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();

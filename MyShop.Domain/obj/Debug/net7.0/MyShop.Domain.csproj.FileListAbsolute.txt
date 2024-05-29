@@ -20,3 +20,4 @@ C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET De
 C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Domain\obj\Debug\net7.0\refint\MyShop.Domain.dll
 C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Domain\obj\Debug\net7.0\MyShop.Domain.pdb
 C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Domain\obj\Debug\net7.0\ref\MyShop.Domain.dll
+C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Domain\obj\Debug\net7.0\MyShop.Domain.sourcelink.json

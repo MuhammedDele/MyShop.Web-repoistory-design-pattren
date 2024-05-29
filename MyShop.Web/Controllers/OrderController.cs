@@ -12,18 +12,18 @@ namespace MyShop.Web.Controllers
 {
     public class OrderController : Controller
     {
-        private readonly IRepository<Order> _orderRepository;
-        private readonly IRepository<Product> _productRepository;
+        //private readonly IRepository<Order> _orderRepository;
+        //private readonly IRepository<Product> _productRepository;
+        private IUnitOfWork _unitOfWork;
 
-        public OrderController(IRepository<Order> repository,IRepository<Product> productRepository)
+        public OrderController(IUnitOfWork unitOfWork)
         {
-            _orderRepository = repository;
-            _productRepository = productRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            var orders = _orderRepository.All();
+            var orders = _unitOfWork.OrderRepository.All();
 
             return View(orders);
         }
@@ -31,7 +31,7 @@ namespace MyShop.Web.Controllers
 
         public IActionResult Create()
         {
-            var products = _productRepository.All();
+            var products = _unitOfWork.ProductRepository.All();
             
             return View(products);
         }
@@ -61,8 +61,8 @@ namespace MyShop.Web.Controllers
                 Customer = customer
             };
 
-            _orderRepository.Add(order);
-            _orderRepository.SaveChanges();
+            _unitOfWork.OrderRepository.Add(order);
+            _unitOfWork.SaveChanges();
 
             return Ok("Order Created");
         }

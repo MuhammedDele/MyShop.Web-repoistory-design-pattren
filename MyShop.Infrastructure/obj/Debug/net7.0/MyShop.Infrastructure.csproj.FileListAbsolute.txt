@@ -20,3 +20,4 @@ C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET De
 C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Infrastructure\obj\Debug\net7.0\MyShop.Infrastructure.pdb
 C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Infrastructure\obj\Debug\net7.0\MyShop.Infrastructure.genruntimeconfig.cache
 C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Infrastructure\obj\Debug\net7.0\ref\MyShop.Infrastructure.dll
+C:\Users\mdele\OneDrive - Üsküdar Üniversitesi\Masaüstü\Thomas More\.NET Development\www\MyShop\MyShop.Infrastructure\obj\Debug\net7.0\MyShop.Infrastructure.sourcelink.json
